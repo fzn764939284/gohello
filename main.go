@@ -6,6 +6,6 @@ import "time"
 func main(){
 
   fmt.Println("hello world")
-  time.sleep(1000 * time.second)
+  time.Sleep(1000 * time.second)
   
 }
