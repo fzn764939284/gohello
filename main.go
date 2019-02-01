@@ -13,6 +13,6 @@ func main(){
       break
     }
   }
-  time.Sleep(1 * time.second)
+  time.Sleep(1 * time.Second)
   
 }
