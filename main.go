@@ -5,7 +5,14 @@ import "time"
 
 func main(){
 
-  fmt.Println("hello world")
-  time.Sleep(1000 * time.second)
+  for{
+    fmt.Println("hello world")
+    a := 1
+    b := 2
+    if(a==b){
+      break
+    }
+  }
+  time.Sleep(1 * time.second)
   
 }
